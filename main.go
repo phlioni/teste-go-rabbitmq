@@ -390,6 +390,8 @@ func ProcessMessage(message []byte, marketjson []byte) {
 	jsonData, _ := json.Marshal(listBuy)
 	fmt.Printf("Id: %s", jsonData)
 
+	//TODO: a lista que estará no nosql, vai armazenar todos os dados e vai atualizando conforme a ultima lista de compra, inserir no json a data a ultima atualização do produto
+
 }
 
 func listCompare(markets []Market, referenceData ReferenceData) MarketList {
